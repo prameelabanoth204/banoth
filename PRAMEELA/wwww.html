@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tilet>TASK REGISTRATION FORM</title>
+
+        <style>
+            body{
+                background-color: lightseagreen;
+                padding: 0%;
+                margin: 0%;
+            }
+            section{
+                background-color: aqua;
+                width: 35%;
+                margin: 40px auto;
+                border-radius: 4px;
+                border: 5px solid black;
+            }
+            article div{
+                padding-bottom: 20px;
+            }
+            article  input{
+                width: 85%;
+            }
+        </style>
+</head> 
+<body>
+    <section>
+        <article>
+            <div><CENTER>
+                <h1>TASK REGISTRATION FORM</h1></CENTER>
+
+            </div>
+            <div>
+                <label for="unname">username</label>
+                <input type="text" id="unname" placeholder="Enter username" pattern="[A,Z],[a,z],[0,9]" style="border: 1px solid black;border-radius:5px ;"
+            </div>
+            <div>
+                <label type="password">password</label>
+                <input type="text" id="password" placeholder="Enter password" pattern="[A,Z],[a,z],[0,9]" style="border: 1px solid blue;border-radius:5px;">
+            </div>
+            <div>
+                <label type="Email Id">email id</label>
+                <input type="text" id="email id" placeholder="Enter email id" pattern="[A,Z],[a,z],[0,9]" style="border: 1px solid black;"border-radius:5px>
+            </div>
+            <div>
+            
+                <label for="male">male</label>
+                <input type="radio" id="male" value="gender" required>
+            
+            
+                <label for="female">female</label>
+                <input type="radio" id="female" value="gender" required>
+            
+        </div>
+        <div>
+            <label for="DOB">date of birth</label>
+            <input type="radio" id="DOB" placeholder="Enter date of birth" pattern="[A,Z],[a,z],[0,9]" style="border:1px solid black ;"border-radius:5px>
+        </div>
+
+        </article>
+    </section>
+    
+</body>
+</html>
